@@ -930,7 +930,7 @@ void Walk(void)
 			{
 				float angularVel = 0;
 //			
-//				angularVel = TinyAngleControl(GetAngle(),(GetRingBufferPointPoseAngle(1)+gRobot.teleCommand.angleshift),P_TINYANGLE_CONTROL_HUGE,D_TINYANGLE_CONTROL_HUGE);
+				angularVel = TinyAngleControl(GetAngle(),(GetRingBufferPointPoseAngle(1)+gRobot.teleCommand.angleshift),P_TINYANGLE_CONTROL_HUGE,D_TINYANGLE_CONTROL_HUGE);
 
 //				OutputVel2Wheel(0.0f,GetRingBufferPointAngle(1),angularVel);
 				
